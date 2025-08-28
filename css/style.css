@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+}
+
+/* Cabeçalho */
+#topo {
+    width: 100%;
+    height: 100px;
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topo h1 {
+    font-size: 28px;
+    color: white;
+}
+
+/* Container principal */
+#total {
+    width: 980px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+/* Banner */
+#banner img {
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Conteúdo com vídeos */
+#conteudo {
+    background-color: rgb(43, 34, 34);
+    padding: 20px 0;
+}
+
+/* Layout fixo dos vídeos lado a lado */
+.video-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Vídeos com tamanho fixo */
+.vid {
+    width: 480px;
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 5px;
+}
